@@ -11,7 +11,7 @@
 
 #SBATCH --qos=campus-gpu
 #SBATCH --partition=campus-gpu
-##SBATCH --mail-user=jroger87@vols.utk.edu
+##SBATCH --mail-user=
 ##SBATCH --mail-type=ALL
 
 ./err_sample 1000000 covData/cov18.dat
